@@ -1,0 +1,26 @@
+.currency-display-grid {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.currency-display-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.currency-info {
+  display: flex;
+  align-items: center;
+}
+
+.currency-flag {
+  width: 20px;
+  margin-right: 10px;
+}

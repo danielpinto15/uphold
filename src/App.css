@@ -1,0 +1,93 @@
+#root {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.rootContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.currency-container {
+  background-color: #f5f9fc;
+  padding: 12px;
+  display: flex;
+  gap: 10px;
+  border-radius: 8px;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.currency-container input {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.currency-container select {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 25%;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h3 {
+  margin-bottom: 20px;
+  color: #8494a5;
+  width: 60%;
+}
+
+.no-amount-container {
+  color: #8494a5;
+  height: 75vh;
+}
